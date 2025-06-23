@@ -1,0 +1,18 @@
+  TOTAL QUESTIONS
+  1. WATER MELON
+  2. TEAM
+  3. THEATRE SQUARE
+  4. DYNAMO PIKING
+  5. SOLDIER AND BANANA
+  6. MISSING NUMBER
+  7. COIN PILE
+  8. WEIRD ALGO
+  9.  check prime numbers between 1 and 100
+  10. print prime numbers between 1 and n
+  11. print alternate prime numbers between 1 and n
+  12. find mean,mode,mid,max given n values
+  13. Elephant
+  14. Nearly lucky numbers
+  15. lucky division
+  16. Ultra-fast Mathematician
+  17. INCREASING ARRAY

@@ -1,0 +1,2 @@
+// HCF CODE
+// LCM CODE
