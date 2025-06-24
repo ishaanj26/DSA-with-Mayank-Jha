@@ -1,12 +1,12 @@
   TOTAL QUESTIONS
-  1. WATER MELON
-  2. TEAM
-  3. THEATRE SQUARE
-  4. DYNAMO PIKING
-  5. SOLDIER AND BANANA
-  6. MISSING NUMBER
-  7. COIN PILE
-  8. WEIRD ALGO
+  1. WATER MELON - cf 4a
+  2. TEAM- cf 231a
+  3. THEATRE SQUARE- cf 1a
+  4. DYNAMO PILING- cf 50-a
+  5. SOLDIER AND BANANA- cf 546-a
+  6. MISSING NUMBER- cses 1083
+  7. COIN PILE -  cses 1754
+  8. WEIRD ALGO- cses 1068
   9.  check prime numbers between 1 and 100
   10. print prime numbers between 1 and n
   11. print alternate prime numbers between 1 and n

@@ -1,5 +1,9 @@
 // THEATRE SQUARE
-//  Watermelon
+// seal value formula for a/b is a+b-1/b
+
+// seal value of m/a + seal value of n/a
+// = (m+a-1)/a * (n+a-1)/a
+
 #include <iostream>
 using namespace std;
 

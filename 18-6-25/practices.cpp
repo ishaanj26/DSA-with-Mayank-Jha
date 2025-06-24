@@ -1,48 +1,6 @@
 #include <iostream>
 using namespace std;
 
-//  Q3. YOU HAVE A RECTANGLE M X N
-//  SQUARE PILES OF A
-//  ADD THOSE SQUARE PILES DONT BREAK THEM. YOU CAN HAVE EXTRA SPACE
-
-// ANSWER-->
-// seal value formula for a/b is a+b-1/b
-
-// seal value of m/a + seal value of n/a
-// = (m+a-1)/a * (n+a-1)/a
-
-// Q7. I have two piles coin a and coin b. I can take 1 coin and 2 from other.
-// Tell me by giving you a and b value will i be able to empty them at the same time
-// ANSWER-->
-// a+b%3==0
-// min(a,b)*2>=max(a,b)
-
-// WEIRD ALGO
-//  #include<iostream>
-//  using namespace std;
-
-// int main() {
-//     int n;
-//     cin>>n;
-//     while (true)
-//     {
-//         if(n==1){
-//             cout<<"1  ";
-//             break;
-//         }
-//         if(n%2==0){
-//             cout<<n<<"  ";
-//             n=n/2;
-//         }else
-//         {
-//             cout<<n<<"  ";
-//             n=n*3+1;
-//         }
-//     }
-
-//     return 0;
-// }
-
 // 9.  check prime numbers between 1 and 100
 // #include <iostream>
 // using namespace std;
