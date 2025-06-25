@@ -1,4 +1,5 @@
   TOTAL QUESTIONS
+  BASICS AND ARRAY QUESTIONS
   1. WATER MELON - cf 4a
   2. TEAM- cf 231a
   3. THEATRE SQUARE- cf 1a
@@ -11,8 +12,12 @@
   10. print prime numbers between 1 and n
   11. print alternate prime numbers between 1 and n
   12. find mean,mode,mid,max given n values
-  13. Elephant
-  14. Nearly lucky numbers
-  15. lucky division
-  16. Ultra-fast Mathematician
-  17. INCREASING ARRAY
+  13. Elephant- cf 617-a
+  14. Nearly lucky numbers-  cf 110-a
+  15. lucky division cf 122-a
+  16. Ultra-fast Mathematician cf 61-a 
+  17. INCREASING - cses-1094
+  18. Beautiful Permutaion- cses- 1070
+  19. Number Spiral - cses - 1071 (IMPORTANT) X
+  20. Two Knights- cses- 1072 X
+  21. TWO SETS - CSES X
