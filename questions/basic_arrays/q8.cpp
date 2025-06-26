@@ -1,5 +1,5 @@
 // Weird algo
-//  if n even then divide by zero if n odd multiply by three add 1 till n=1
+//  if n even then divide by two if n odd multiply by three add 1 till n=1
 #include <iostream>
 using namespace std;
 

@@ -1,4 +1,5 @@
   TOTAL QUESTIONS
+
   BASICS AND ARRAY QUESTIONS
   1. WATER MELON - cf 4a
   2. TEAM- cf 231a
@@ -6,7 +7,7 @@
   4. DYNAMO PILING- cf 50-a
   5. SOLDIER AND BANANA- cf 546-a
   6. MISSING NUMBER- cses 1083
-  7. COIN PILE -  cses 1754
+  7. COIN PILES -  cses 1754
   8. WEIRD ALGO- cses 1068
   9.  check prime numbers between 1 and 100
   10. print prime numbers between 1 and n
@@ -19,5 +20,6 @@
   17. INCREASING - cses-1094
   18. Beautiful Permutaion- cses- 1070
   19. Number Spiral - cses - 1071 (IMPORTANT) X
-  20. Two Knights- cses- 1072 X
-  21. TWO SETS - CSES X
+  20. Two Knights- cses- 1072 (IMPORTANT)
+  21. TWO SETS - CSES-1092
+  22. Trailing Zero cses-1618 - IMP

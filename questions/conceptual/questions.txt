@@ -1,0 +1,11 @@
+  TOTAL QUESTIONS
+
+  BASICS AND ARRAY QUESTIONS
+  1. THEATRE SQUARE- cf 1a
+  2. COIN PILES -  cses 1754
+  3.  check prime numbers between 1 and 100
+  4. find mean,mode,mid,max given n values
+  5. Number Spiral - cses - 1071 (IMPORTANT) X
+  6. Two Knights- cses- 1072 (IMPORTANT)
+  7. TWO SETS - CSES-1092
+  8. Trailing Zero cses-1618 - IMP

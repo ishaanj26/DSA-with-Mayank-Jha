@@ -2,6 +2,7 @@
 #include <iostream>
 #include <map>
 #include <algorithm>
+#include <vector>
 using namespace std;
 
 int main()
@@ -9,14 +10,16 @@ int main()
     int n;
     cout << "Enter number of values: ";
     cin >> n;
-    int a[n];
+    vector <int> a;
     int sum = 0, minValue, maxValue;
     map<int, int> freq;
 
     cout << "Enter the values: ";
     for (int i = 0; i < n; i++)
     {
-        cin >> a[i];
+        int x;
+        cin>>x;
+        a.push_back(x);
         sum += a[i];
         freq[a[i]]++;
         if (i == 0)
@@ -49,7 +52,7 @@ int main()
     cout << "Mode   = " << mode << "  Frequency    = " << maxfreq << endl;
 
     // Median
-    sort(a, a + n);
+    sort(a.begin(), a.end());
     double median;
     if (n % 2 == 0)
     {
