@@ -23,3 +23,5 @@
   20. Two Knights- cses- 1072 (IMPORTANT)
   21. TWO SETS - CSES-1092
   22. Trailing Zero cses-1618 - IMP
+  23. GCD
+  24. LCM
