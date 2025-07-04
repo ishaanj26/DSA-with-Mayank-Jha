@@ -18,27 +18,21 @@ using namespace std;
 bool check3Sum(vector<int> arr, unordered_map<int, int> freq)
 {
 
-    int count = 0;
-    int result[30];
-    
+    vector<int> result;
+
     for (auto value : freq)
     {
-        int occur = 0;
-        while (value.second != 0)
+        for (int i = 0; i < min(3, value.second); i++)
         {
-            if (occur >= 3)
-            {
-                break;
-            }
-            result[count] = (value.first);
-            value.second--;
-            count++;
-            occur++;
+            result.push_back(value.first);
         }
     }
-    for (int i = 0; i < count; i++)
+
+    int count = result.size();
+
+    for (int i = 0; i < count - 2; i++)
     {
-        for (size_t j = i + 1; j < count; j++)
+        for (size_t j = i + 1; j < count - 1; j++)
         {
             for (size_t k = j + 1; k < count; k++)
             {
@@ -68,8 +62,8 @@ int main()
             arr[i] = arr[i] % 10;
             freq[arr[i]]++;
         }
-        bool output = check3Sum(arr, freq);
-        if (output)
+        
+        if (check3Sum(arr, freq))
         {
             cout << "YES" << endl;
         }

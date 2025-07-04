@@ -27,6 +27,7 @@ int main()
     {
         cin >> arr[i]; // input array elements
     }
+
     // 1st approach leads to TLE
     //  while (q > 0)
     //  {
@@ -40,6 +41,7 @@ int main()
     //      cout << sum << endl;
     //      q--;
     //  }
+
     // Build prefix sum array once
     long long prefix[n + 1];
     prefix[0] = arr[0];
@@ -52,6 +54,8 @@ int main()
     {
         long long a, b;
         cin >> a >> b;
+        
+        // One indexing
         if (a == 1)
             cout << prefix[b - 1] << endl;
         else

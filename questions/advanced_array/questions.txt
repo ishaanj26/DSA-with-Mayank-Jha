@@ -1,3 +1,7 @@
-1. 3SUM Closure cf F-1692
+1. 3SUM cf F-1692 (FETCH QUERY IN PREFIX COMPUTATION ARRAY)
 2. Static Range Sum Queries cses 1646
 3. Greg and array cf 295/a
+4. Update Prefix Query
+5. Check if a SUBARRAY computes to zero
+
+7. Bubble Sort
