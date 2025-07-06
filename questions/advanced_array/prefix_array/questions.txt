@@ -1,0 +1,6 @@
+1. 3SUM cf F-1692 (FETCH QUERY IN PREFIX COMPUTATION ARRAY)
+2. Static Range Sum Queries cses 1646
+3. Update Prefix Query
+4. Greg and array cf 295/a 
+5. Check if a SUBARRAY computes to zero  && NO OF SUBAARAY EQUATING TO 0
+6. Longest Subarray with sum K lc-560
