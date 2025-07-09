@@ -8,6 +8,7 @@
 // 5 6
 // 1 8
 // 3 3
+
 // Output:
 
 // 11
@@ -17,31 +18,25 @@
 #include <iostream>
 using namespace std;
 
-int main()
+void BRUTE_FORCE(long long q, long long arr[])
 {
-    long long n, q;
-    cin >> n;
-    long long arr[n];
-    cin >> q;
-    for (long long i = 0; i < n; i++)
+    // Leads to tle 0(q*n)
+    while (q > 0)
     {
-        cin >> arr[i]; // input array elements
+        long long a, b;
+        cin >> a >> b;
+        long long sum = 0;
+        for (long long i = a - 1; i < b; i++)
+        {
+            sum += arr[i];
+        }
+        cout << sum << endl;
+        q--;
     }
+}
 
-    // 1st approach leads to TLE
-    //  while (q > 0)
-    //  {
-    //      long long a, b;
-    //      cin >> a >> b;
-    //      long long sum = 0;
-    //      for (long long i = a - 1; i < b; i++)
-    //      {
-    //          sum += arr[i];
-    //      }
-    //      cout << sum << endl;
-    //      q--;
-    //  }
-
+void PREFIX_APPROACH(long long n, long long q, long long arr[])
+{
     // Build prefix sum array once
     long long prefix[n + 1];
     prefix[0] = arr[0];
@@ -55,12 +50,28 @@ int main()
         long long a, b;
         cin >> a >> b;
         
-        // One indexing
+        // 1based indexing
         if (a == 1)
+        {
             cout << prefix[b - 1] << endl;
+        }
         else
             cout << prefix[b - 1] - prefix[a - 2] << endl;
     }
+}
 
+int main()
+{
+    long long n, q;
+    cin >> n;
+    long long arr[n];
+    cin >> q;
+    for (long long i = 0; i < n; i++)
+    {
+        cin >> arr[i]; // input array elements
+    }
+
+    // BRUTE_FORCE(q, arr);
+    PREFIX_APPROACH(n, q, arr);
     return 0;
 }

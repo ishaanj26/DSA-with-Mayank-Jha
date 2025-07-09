@@ -25,3 +25,6 @@
   22. Trailing Zero cses-1618 - IMP
   23. GCD
   24. LCM
+  25. THREE SUM remainder last digit PROBLEM cf F-1692 (FETCH QUERY IN PREFIX COMPUTATION ARRAY)
+  26. Char array
+  27. Shiftng the Frequency array to store negative values

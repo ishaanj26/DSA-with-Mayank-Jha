@@ -1,4 +1,4 @@
-// THREE SUM PROBLEM
+// THREE SUM remainder last digit PROBLEM
 //  In this if the three distinct indices have sum last digit as 3 print yes else no
 
 // hint
@@ -7,7 +7,7 @@
 // But last digit will aslo kead to same number of n
 // we need to reduce the n,
 // notice how in the question it s asked three indices add to the sum
-// so if the frequency of last digit is 3 we cannot inclue it
+// so if the frequency of last digit is more than 3 we cannot reduce it
 // doing so we can reduce the number if n and then we apply brute force.
 
 #include <iostream>
