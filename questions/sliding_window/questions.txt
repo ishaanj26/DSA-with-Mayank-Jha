@@ -1,0 +1,2 @@
+Sliding Widnow Questions
+1. Book codeforces-279/B

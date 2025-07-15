@@ -1,0 +1,5 @@
+Questions for Binary Search
+
+1. Factory Machine cses-1620
+2. Anton and Fairy Tale cf-786-C
+3. Is this JEE? Codechef 

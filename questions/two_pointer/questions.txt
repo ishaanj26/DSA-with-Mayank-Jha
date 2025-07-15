@@ -1,0 +1,3 @@
+Two pointers Questions
+1. Srija and Dimma codeforces - 381/A 
+2. Container with msot water - leetcode 11
