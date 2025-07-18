@@ -1,3 +1,6 @@
 Two pointers Questions
 1. Srija and Dimma codeforces - 381/A 
-2. Container with msot water - leetcode 11
+2. Container with most water - leetcode 11
+3. Queries about less or equal elements CF-600/B
+4. Largest Number - leetcode 179
+5. Dirty Deeds Done Dirt Cheap D-1148

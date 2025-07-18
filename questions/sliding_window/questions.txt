@@ -1,2 +1,4 @@
 Sliding Widnow Questions
 1. Book codeforces-279/B
+2. Vasya and Strings codeforces-676/C
+3. Subarray Sum 1 cses 1660

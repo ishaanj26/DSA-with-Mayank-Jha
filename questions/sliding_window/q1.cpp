@@ -35,7 +35,7 @@ int Upper_bound(int prefix[], int n, int t)
         if (prefix[mid] > t)
         {
             ans = mid;
-            end = mid;
+            end = mid-1;
         }
         else
         {
@@ -47,8 +47,7 @@ int Upper_bound(int prefix[], int n, int t)
 
 int SldiingWindowApproach(int n, int t, int arr[])
 {
-    int s = 0;
-    int tc = 0;
+    int s = 0,tc = 0;
     int maxi = INT8_MIN;
     for (size_t e = 0; e < n; e++)
     {
@@ -67,6 +66,7 @@ int SldiingWindowApproach(int n, int t, int arr[])
             maxi = count;
         }
     }
+     return maxi;
 }
 
 int32_t main()
@@ -91,7 +91,7 @@ int32_t main()
     //  }
 
     // // for every start point of the book tell me how many more books can you read.
-    // // Since we have a prefix array:The first index will have value ->  updated time - start point is the answer
+    // // Since we have a prefix array: The first index will have value ->  updated time - start point is the answer
     // int max = INT16_MIN;
     // for (size_t i = 0; i < n; i++)
     // {
