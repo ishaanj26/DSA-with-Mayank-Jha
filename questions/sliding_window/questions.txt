@@ -2,3 +2,8 @@ Sliding Widnow Questions
 1. Book codeforces-279/B
 2. Vasya and Strings codeforces-676/C
 3. Subarray Sum 1 cses 1660
+4. Longest Substring Without Repeating Characters lc-3
+5. Max Consecutive Ones III lc-1004
+6. Longest Repeating Character Replacement lc-424
+7. Binary Subarrays With Sum lc-930
+8. Maximum Points You Can Obtain from Cards lc-1423

@@ -35,7 +35,7 @@ int Upper_bound(int prefix[], int n, int t)
         if (prefix[mid] > t)
         {
             ans = mid;
-            end = mid-1;
+            end = mid - 1;
         }
         else
         {
@@ -47,14 +47,14 @@ int Upper_bound(int prefix[], int n, int t)
 
 int SldiingWindowApproach(int n, int t, int arr[])
 {
-    int s = 0,tc = 0;
+    int s = 0, tc = 0;
     int maxi = INT8_MIN;
     for (size_t e = 0; e < n; e++)
     {
-        //Expasnion
+        // Expasnion
         tc += arr[e];
 
-        //Shrinakge
+        // Shrinakge
         while (s <= e and tc > t)
         {
             tc -= arr[s];
@@ -66,7 +66,7 @@ int SldiingWindowApproach(int n, int t, int arr[])
             maxi = count;
         }
     }
-     return maxi;
+    return maxi;
 }
 
 int32_t main()
